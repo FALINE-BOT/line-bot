@@ -44,7 +44,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/naisayuriza"
+    "url": "git+https://github.com/FALINE-BOT"
   },
   "keywords": [
     "Wasu"
@@ -52,7 +52,7 @@
   "author": "RHISHNA",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/naisayuriza"
+    "url": "https://github.com/FALINE-BOT"
   },
-  "homepage": "https://github.com/naisayuriza"
+  "homepage": "https://github.com/FALINE-BOT"
 }
