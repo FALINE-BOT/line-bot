@@ -55,9 +55,9 @@ const { jadibot, stopjadibot, listjadibot } = require('./lib/jadibot')
 
 banChats = true
 offline = false
-targetpc = '6285751056816'
-owner = '6285751056816'
-fake = 'HEXAGONZ'
+targetpc = '6283830172470'
+owner = '6283830172470'
+fake = 'RHISHNA'
 numbernye = '0'
 waktu = '-'
 alasan = '-'
@@ -435,7 +435,7 @@ Prefix : 「 MULTI-PREFIX 」
 ► _vote_
 ► _devote_
 
-❏ *SELF-BOT* ❏`
+❏ *LINE-BOT* ❏`
         	fakestatus(menu)
            	break
     case 'delvote':
@@ -567,7 +567,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             fakestatus(' ```ANDA TELAH ONLINE``` ')
             break       
     case 'status':
-            fakestatus(`*STATUS*\n${offline ? '> OFFLINE' : '> ONLINE'}\n${banChats ? '> SELF-MODE' : '> PUBLIC-MODE'}`)
+            fakestatus(`*STATUS*\n${offline ? '> OFFLINE' : '> ONLINE'}\n${banChats ? '> LINE-MODE' : '> PUBLIC-MODE'}`)
             break
     case 'off':
             if (!mek.key.fromMe) return 
@@ -585,7 +585,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             })   
             break
     case 'kontag':
-            if (!mek.key.fromMe) return reply('SELF-BOT')
+            if (!mek.key.fromMe) return reply('LINE-BOT')
             pe = args.join('')
             entah = pe.split('|')[0]
             nah = pe.split('|')[1]
@@ -933,7 +933,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
     		hexa.sendMessage(from, mat, MessageType.extendedText, anu)
             break
     case 'public':
-          	if (!mek.key.fromMe) return fakestatus('SELF-BOT')
+          	if (!mek.key.fromMe) return fakestatus('LINE-BOT')
           	if (banChats === false) return
           	// var taged = ben.message.extendedTextMessage.contextInfo.mentionedJid[0]
           	banChats = false
@@ -945,10 +945,10 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
           	uptime = process.uptime()
          	 // var taged = ben.message.extendedTextMessage.contextInfo.mentionedJid[0]
          	banChats = true
-          	fakestatus(`「 *SELF-MODE* 」`)
+          	fakestatus(`「 *LINE-MODE* 」`)
           	break
  	case 'hidetag':
-			if (!mek.key.fromMe) return fakestatus('SELF-BOT')
+			if (!mek.key.fromMe) return fakestatus('LINE-BOT')
 			if (!isGroup) return reply(mess.only.group)
 			var value = args.join(' ')
 			var group = await hexa.groupMetadata(from)
@@ -1097,7 +1097,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             ytresult += '❏ Durasi: ' + video.timestamp + '\n'
             ytresult += '❏ Upload: ' + video.ago + '\n________________________\n\n'
     		});
-    		ytresult += '◩ *SELF-BOT*'
+    		ytresult += '◩ *LINE-BOT*'
     		await fakethumb(tbuff,ytresult)
 			break
 	case 'setreply':
@@ -1264,7 +1264,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
 	case 'term':
 			if (!q) return fakegroup(mess.wrongFormat)
 			exec(q, (err, stdout) => {
-			if (err) return fakegroup(`SELF-BOT:~ ${err}`)
+			if (err) return fakegroup(`LINE-BOT:~ ${err}`)
 			if (stdout) {
 			fakegroup(stdout)
 			}
@@ -1449,7 +1449,7 @@ reply(e)
 	}
 if (isGroup && budy != undefined) {
 	} else {
-	console.log(color('[TEXT]', 'red'), 'SELF-MODE', color(sender.split('@')[0]))
+	console.log(color('[TEXT]', 'red'), 'LINE-MODE', color(sender.split('@')[0]))
 	}		
 	} catch (e) {
     e = String(e)
