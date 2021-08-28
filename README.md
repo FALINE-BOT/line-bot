@@ -1,13 +1,16 @@
 <div align="center">
 <img src="https://a.top4top.io/p_2066ifdcl1.jpg" alt="LINE-BOT" width="300" />
 
-# DAHLAH
+# MASIH DALAM PROSES PEMPERBAIKAN 
   
 <!---------- Typing SVG ---------->
 <p align="center">
     <a href="https://avatars.githubusercontent.com/u/85664936?v=4">
         <img
             src="https://readme-typing-svg.herokuapp.com?size=31&width=1000&lines=WELCOME+TO+LINE+BOT+CODDED+BY+RHISHNA"
+    <a href="https://avatars.githubusercontent.com/u/85664936?v=4">
+        <img
+            src="https://readme-typing-svg.herokuapp.com?size=31&width=1000&lines=SEMOGA+TERBANTU+YA"
             alt="Typing SVG"
         />
     </a>
@@ -46,7 +49,7 @@
 * [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
 * [Libwebp](https://developers.google.com/speed/webp/download)
 
-# PIMTUR
+# FITUR
 
 | OWNER |✅|
 | ------------- | ------------- |
