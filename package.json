@@ -1,7 +1,7 @@
 {
-  "name": "HEXAGONZ",
+  "name": "RHISHNA",
   "version": "1.0.0",
-  "description": "HEXA",
+  "description": "RHIS",
   "main": "main.js",
   "directories": {
     "lib": "lib"
@@ -44,15 +44,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hexagonz"
+    "url": "git+https://github.com/naisayuriza"
   },
   "keywords": [
     "Wasu"
   ],
-  "author": "HEXAGON",
+  "author": "RHISHNA",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Hexagonz"
+    "url": "https://github.com/naisayuriza"
   },
-  "homepage": "https://github.com/Hexagonz"
+  "homepage": "https://github.com/naisayuriza"
 }
