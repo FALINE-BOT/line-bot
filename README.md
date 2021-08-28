@@ -23,7 +23,7 @@
 <p align="center">
   <a href="https://github.com/FALINE-BOT"><img title="Author" src="https://img.shields.io/badge/Author-RHISHNA-red.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
-  <a href="https://wa.me/6283830172470">INI WHATSAPP KU KA DISAVE YA >//< </a>
+  <a href="https://wa.me/6283830172470">INI WHATSAPP KU KA DISAVE YA </a>
 </h4>
 </p>
 
