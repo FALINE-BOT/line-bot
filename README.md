@@ -8,9 +8,9 @@
 >
 </div>
 <p align="center">
-  <a href="https://github.com/Hexagonz"><img title="Author" src="https://img.shields.io/badge/Author-Hexagonz-red.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/FALINE-BOT"><img title="Author" src="https://img.shields.io/badge/Author-RHISHNA-red.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
-  <a href="https://wa.me/6285751056816">KYAAA ONI CHAN >//< </a>
+  <a href="https://wa.me/6283830172470">INI WHATSAPP KU KA DISAVE YA >//< </a>
 </h4>
 </p>
 
@@ -24,8 +24,8 @@
 ```
 ## CARA INSTALL DI LAPTOP
 ```bash
-> git clone https://github.com/Hexagonz/SELF-HX 
-> cd SELF-HX
+> git clone https://github.com/FALINE-BOT/line-bot
+> cd line-bot
 > npm i
 > npm start/node main.js
 ```
@@ -116,6 +116,6 @@
   # MAKASIH LORT
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
 * [`MhankBarBar`](https://github.com/MhankBarBar)
-* [`MRHRTZ`](https://github.com/MRHRTZ)
+* [`Ka Rhishna`](https://github.com/naisayuriza)
   
   
