@@ -2,7 +2,17 @@
 <img src="https://a.top4top.io/p_2066ifdcl1.jpg" alt="LINE-BOT" width="300" />
 
 # DAHLAH
-
+  
+<!---------- Typing SVG ---------->
+<p align="center">
+    <a href="https://avatars.githubusercontent.com/u/85664936?v=4">
+        <img
+            src="https://readme-typing-svg.herokuapp.com?size=31&width=1000&lines=WELCOME+TO+LINE+BOT+CODDED+BY+RHISHNA"
+            alt="Typing SVG"
+        />
+    </a>
+</p>
+  
 >
 >
 >
