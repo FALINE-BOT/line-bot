@@ -168,7 +168,7 @@ module.exports = hexa = async (hexa, mek) => {
                 quoted: {
                     key: {
                         fromMe: false,
-                        participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289523258649-1604595598@g.us" } : {})
+                        participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6283830172470-1604595598@g.us" } : {})
                     },
                     message: {
                         "imageMessage": {
@@ -282,7 +282,7 @@ module.exports = hexa = async (hexa, mek) => {
         let vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`))
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`))  
         let fil = vote.map(v => v.participant)
-        let id_vote = sender ? sender : '6285751056816@s.whatsapp.net'
+        let id_vote = sender ? sender : '6283830172470@s.whatsapp.net'
         if(fil.includes(id_vote)) {
         return mentions('@'+sender.split('@')[0]+' Anda sudah vote', fil, true)
         } else {
@@ -304,7 +304,7 @@ module.exports = hexa = async (hexa, mek) => {
         const vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`))
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`))  
         let fil = vote.map(v => v.participant)
-        let id_vote = sender ? sender : '6285751056816@s.whatsapp.net'
+        let id_vote = sender ? sender : '6283830172470@s.whatsapp.net'
         if(fil.includes(id_vote)) {
         return mentions('@'+sender.split('@')[0]+' Anda sudah vote', fil, true)
         } else {
@@ -814,7 +814,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
             encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 		    media = await hexa.downloadAndSaveMediaMessage(encmedia)
             anu = args.join(' ').split('|')
-            satu = anu[0] !== '' ? anu[0] : `SELF`
+            satu = anu[0] !== '' ? anu[0] : `LINE`
             dua = typeof anu[1] !== 'undefined' ? anu[1] : `BOT`
             require('./lib/fetcher.js').createExif(satu, dua)
 			require('./lib/fetcher.js').modStick(media, hexa, mek, from)
